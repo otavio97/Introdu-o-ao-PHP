@@ -1,0 +1,8 @@
+//Para inserir uma variavel no php basta usar o prefixo $ antes da variavel e depois = para definir seu valor
+//uma variavel pode ser int, float, double, boolean, string...
+<?php
+      $variavel = 3;
+      echo $variavel;
+?>
+// a função do echo e exibir na tela
+//sempre utilizar no fim de uma linha um ';'
