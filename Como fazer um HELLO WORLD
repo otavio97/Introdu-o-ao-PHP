@@ -1,0 +1,10 @@
+// Para iniciar esse curso vamos começar com o programa que toda linguagem inicia 
+// o famoso OLA MUNDO 
+<?php
+      echo "hello world";
+ ?>
+//Para ver se o programa deu certo você pode baixar uma ide destinada a programação php
+//Ou escrever em um bloco de texto e salvar como um arquivo .php 
+//claro que antes disso voce deve ter o php instalado no seu computador 
+//e atraves do cmd habilitar um servidor php 
+//irei prerparar um material referentea esta part
