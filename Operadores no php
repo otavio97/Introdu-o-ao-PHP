@@ -1,0 +1,23 @@
+//Os operadores assim como nas linguagens mais conhecidas não sao muito diferentes 
+//soma +
+//subtração - 
+//divisao /
+//multiplicação *
+//resto %
+
+<?php
+    $A = 3;
+    $B = 4;
+    $soma = $A +$B;
+    $subtração = $A - $B;
+    $divisao = $A/%B;
+    $multiplicaçao = $A*$B;
+    $resto = $A%$B;
+    echo $soma . PHP_EOL;
+    echo $subtraçao . PHP_EOL;
+    echo $divisao . PHP_EOL;
+    echo $multiplicaçao .PHP_EOL;
+    echo $resto . PHP_EOL;
+
+?>
+//O argumento PHP_EOL serve para a quebra de linha no php
