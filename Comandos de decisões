@@ -1,0 +1,16 @@
+<?php
+//Para enternder a tomada de decisoes primeiro precisamos conhecer os booleanos
+//&& and
+//|| or
+// < menor que > maior que 
+// vamos fazer um exercicio e utilizar o comando if e else
+//Solicite a entrada de um número e descubra se um número digitado é par ou ímpar. 
+
+$numero = 3;
+echo "O programa vai indicar se o numero e impar ou par ";
+if($numero%2==0){
+  echo "Onumero e par ". PHP_EOL;
+}
+else {
+   echo "o numero e impar". PHP_EOL;
+?>
