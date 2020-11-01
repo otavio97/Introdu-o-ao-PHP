@@ -1,0 +1,9 @@
+// Este comando serve para evitar ficar repetindo codigos
+<?php
+$variavel = 3;
+while ($varialvel < 15){
+echo $variavel . PHP_EOL;
+$variavel = $variavel + 1;
+//O codigo vai samar de 1 em 1 ate 14 
+}
+?>
