@@ -1,0 +1,8 @@
+// Essa e a segunda parte do comando de repetição 
+// O famoso comando for 
+<?php
+for ($contador =0;$contador <= 15;$contador++){
+echo $contador . PHP_EOL;
+}
+
+?>
