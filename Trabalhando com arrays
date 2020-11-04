@@ -1,0 +1,14 @@
+<?php
+//Primeiro vamos declarar um array
+$idades = [12,14,35,23,76,34,23,15];
+//Agora para escrever alguma destas idades basta declarar a posição dela 
+//lembrando que a primeira posiçao e o 0
+echo $idade[4];
+76
+//E para declarar todas as idades basta colocar nosso array em um laço for 
+for($i = 0;cont($idade);$i++){
+  echo $idade . PHP_EOL;
+  
+}
+//Foi utilizado uma funçao do php chamada cont
+?>
