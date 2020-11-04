@@ -1,0 +1,30 @@
+<?php
+//O que vou fazer agora e um exemplo de associaçao de arrays 
+//CONTAS CORRENTES
+$conta1[
+        'titular => 'jessica',
+        'saldo' => 200
+        ]
+$conta2[
+        'titular' => 'carol',
+        'saldo' => 300
+        ]
+$conta3[
+        'titular'=> 'otavio'
+        'saldo' => 500
+        ];
+        
+//foi criado 3 arrays e agora vamos associar eles em um array so 
+
+$contascorentes[$conta1, $conta2, $conta3];
+
+//feito isso agora vamos consultar todas as informaçoes juntas 
+for($i=0;cont($contascorrentes,$i++){
+    echo $contascorrentes('titular') . PHP_EOL;
+}
+
+jessica
+carol
+otavio
+
+?>
