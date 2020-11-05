@@ -1,0 +1,38 @@
+//Funçoe sao essencial em toda linguagem de programaçao e no phh nao vai ser diferente
+//Vou utilizar o exemplo anterior para 
+
+<?php
+$conta1[
+        'titular => 'jessica',
+        'saldo' => 200
+        ]
+$conta2[
+        'titular' => 'carol',
+        'saldo' => 300
+        ]
+$conta3[
+        'titular'=> 'otavio'
+        'saldo' => 500
+        ];
+        
+$contascorentes[$conta1, $conta2, $conta3];
+for($i=0;cont($contascorrentes,$i++){
+    echo $contascorrentes('titular') . PHP_EOL;
+//agora vopu criar uma funçao para atribuir valores nas contas 
+function depositar(array $conta , float $valordepositar):array
+{
+if($valordepositar>0){
+  $conta['saldo']+= $valordepositar;
+}
+else{
+  echo "precisa ser um valor positivo para fazer deposito";
+}
+return $conta;
+}
+//agora basta chamar a função
+$contascorrentes[$conta1] = deposita(
+    $contasCorrentes[%conta1],
+    200;
+>?
+
+?>
